@@ -8,8 +8,6 @@
 
 - _To make an **Object** or **Instance** from a constructor, we write **new** operator before constructor_.
 
-<br/>
-
 ### _**Promise() Constructor**_ :
 
 - _**A callback function** is the **Argument** of Promise() constructor function_.
@@ -38,7 +36,3 @@ const promise = new Promise((resolve, reject) => {});
 - **_`Promise.all` to consume array of Promise object_**.
 - - _`Promise.all(ArrayOfPromise).then(res=>console.log(res))`_
 - - _after completing/executing all promises, then the data consumed in callback function._
-
-```
-Promise.all(ArrayOfPromise).then(res=>console.log(res))
-```
