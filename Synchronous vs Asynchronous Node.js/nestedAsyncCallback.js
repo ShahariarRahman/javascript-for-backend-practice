@@ -4,6 +4,9 @@ setTimeout(() => {
   const user = { id: 1 };
   setTimeout(() => {
     const products = [{}, {}, {}];
+    setTimeout(() => {
+      const prices = [];
+    }, 1000);
   }, 500);
 }, 1000);
 
