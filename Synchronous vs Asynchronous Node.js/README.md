@@ -15,4 +15,4 @@
 
 - _Readability compromised_
 - _Difficult to maintain_
-- _Nested Complex callback task is called Callback Hell_
+- _Nested Complex callback task is called, Callback Hell_
