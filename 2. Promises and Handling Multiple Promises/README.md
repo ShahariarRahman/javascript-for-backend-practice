@@ -36,3 +36,7 @@ const promise = new Promise((resolve, reject) => {});
 - **_`Promise.all` to consume array of Promise object_**.
 - - _`Promise.all(ArrayOfPromise).then(res=>console.log(res))`_
 - - _after completing/executing all promises, then the data consumed in callback function._
+
+```
+Promise.all(ArrayOfPromise).then(res=>console.log(res))
+```
