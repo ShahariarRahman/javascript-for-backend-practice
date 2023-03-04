@@ -4,7 +4,7 @@
 
 - _Sync task execute at **Event queue**_.
 - _Async task sent to **Threat Pool**_.
-- - _When task complete, **Event loop** send the task to **event Queue**_.
+- - _When task complete, **Event loop** send the task to **Event Queue**_.
 
 <a target="_blank" href="https://www.geeksforgeeks.org/node-js-event-loop/">
     <img  src="nodejs-operations.png" width=500 alt="Node.js Image 1">
