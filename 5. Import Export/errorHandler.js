@@ -1,1 +1,4 @@
-console.log(module);
+function errorHandler(error) {
+  const { name, message, stack } = error;
+  console.log(message);
+}
