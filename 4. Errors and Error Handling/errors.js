@@ -1,6 +1,8 @@
 const getData = async () => {
   try {
-    undefined.find();
+    // undefined.find();
+    const emailError = new Error("Email already exist!");
+    throw emailError;
   } catch (error) {
     errorHandler(error);
   }
