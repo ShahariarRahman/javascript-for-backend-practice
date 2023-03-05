@@ -1,5 +1,9 @@
 const getData = async () => {
-  undefined.find();
+  try {
+    undefined.find();
+  } catch (error) {
+    //
+  }
 };
 
 getData();
