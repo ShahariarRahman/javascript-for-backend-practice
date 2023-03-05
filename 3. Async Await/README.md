@@ -17,9 +17,9 @@ _Two ways to consume data from a promise._
 - _**Async Await**._
 - - _Async task easily manageable **Like Sync Task.**_
 - - _Consume data: It is better than callback function._
-- - _No nested callback function: Easily manageable and understand._
+- - _No nested callback function: Easily manageable & understand._
 
-### Async Await Syntax :
+### _Async Await Syntax_ :
 
 - _A **Async function**_
 - _**Await** Inside async functions_
