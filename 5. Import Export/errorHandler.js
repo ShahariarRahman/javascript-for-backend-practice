@@ -1,8 +1,8 @@
-module.exports.errorHandler = function errorHandler(error) {
+export function errorHandler(error) {
   const { name, message, stack } = error;
   console.log(message);
-};
+}
 
-module.exports.two = function two() {
+export function two() {
   console.log("two");
-};
+}

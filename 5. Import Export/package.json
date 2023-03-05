@@ -1,0 +1,13 @@
+{
+  "name": "javascript-concepts-for-backend-development",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1. Synchronous vs Asynchronous Node.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

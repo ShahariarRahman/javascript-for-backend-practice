@@ -1,4 +1,4 @@
-const { errorHandler } = require("./errorHandler.js");
+import { errorHandler } from "./errorHandler.js";
 
 const getData = async () => {
   try {
