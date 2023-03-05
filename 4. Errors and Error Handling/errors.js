@@ -8,8 +8,8 @@ const getData = async () => {
 
 getData();
 
-const errorHandler = (error) => {
+function errorHandler(error) {
   console.log(error);
-};
+}
 
 console.log("Done!");
