@@ -1,3 +1,5 @@
+const errorHandler = require("./errorHandler.js");
+
 const getData = async () => {
   try {
     const emailError = new Error("Email already exist!");
