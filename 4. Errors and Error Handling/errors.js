@@ -9,7 +9,18 @@ const getData = async () => {
 getData();
 
 function errorHandler(error) {
-  console.log(error);
+  const { name, message, stack } = error;
+  console.log(message);
+  /*
+  logger.error({
+    name,
+    message,
+    stack,
+    route: req.route,
+  });
+  
+  console.log("Internal server error!");
+ */
 }
 
 console.log("Done!");
