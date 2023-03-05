@@ -3,4 +3,9 @@ function errorHandler(error) {
   console.log(message);
 }
 
-module.exports = errorHandler;
+function two() {
+  console.log("two");
+}
+
+module.exports.errorHandler = errorHandler;
+module.exports.two = two;
