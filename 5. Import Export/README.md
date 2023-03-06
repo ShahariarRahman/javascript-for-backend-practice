@@ -58,6 +58,25 @@ module.exports.exportValue2 = function exportValue2(params) {
 const { exportValue1,exportValue2 } = require("./file.js");
 ```
 
+- _Es6 Module Import, Export :_
+- - _same as react_
+- - _not recommended._
+
+```
+// export :
+exports function exportValue1(params) {
+  console.log(params);
+};
+export function exportValue2(params) {
+  console.log(params);
+};
+```
+
+```
+// import :
+import { experimental, exportValue2 } from "./file.js";
+```
+
 - _Import-export language define in `package.json`_ :
 - - **_Commonjs :_**
 - - - _Module use commonjs by default_
